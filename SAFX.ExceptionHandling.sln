@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAFX.ExceptionHandling.Usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAFX.ExceptionHandling.UsingFilters", "Src\SAFX.ExceptionHandling.UsingFilters\SAFX.ExceptionHandling.UsingFilters.csproj", "{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAFX.ExceptionHandling.UsingProblemDetail", "Src\SAFX.ExceptionHandling.UsingProblemDetail\SAFX.ExceptionHandling.UsingProblemDetail.csproj", "{77ADD6D9-1145-44E2-AD4D-E27DC89A7C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ADD6D9-1145-44E2-AD4D-E27DC89A7C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ADD6D9-1145-44E2-AD4D-E27DC89A7C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ADD6D9-1145-44E2-AD4D-E27DC89A7C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ADD6D9-1145-44E2-AD4D-E27DC89A7C51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
