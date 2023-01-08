@@ -1,14 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SAFX.ExceptionHandling.UsingMiddleware.Controllers
+namespace SAFX.ExceptionHandling.UsingMiddleware.Controllers;
+
+[ApiController]
+public class ExceptionController : ControllerBase
 {
-	[ApiController]
-	public class ExceptionController : ControllerBase
+	[HttpGet("throw-new-exception")]
+	public IActionResult Get()
 	{
-		[HttpGet("throw-new-exception")]
-		public IActionResult Get()
-		{
-			throw new Exception("Some excpetion raised here");
-		}
+		throw new Exception("Some excpetion raised here");
 	}
 }
