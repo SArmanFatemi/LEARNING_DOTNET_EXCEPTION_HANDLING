@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAFX.ExceptionHandling.UsingMiddleware", "Src\SAFX.ExceptionHandling.UsingMiddleware\SAFX.ExceptionHandling.UsingMiddleware.csproj", "{2359E5E9-3A1E-46A9-B317-D011B124CCDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAFX.ExceptionHandling.UsingFilters", "Src\SAFX.ExceptionHandling.UsingFilters\SAFX.ExceptionHandling.UsingFilters.csproj", "{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2359E5E9-3A1E-46A9-B317-D011B124CCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2359E5E9-3A1E-46A9-B317-D011B124CCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2359E5E9-3A1E-46A9-B317-D011B124CCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C1F7EB-4E0F-4EC0-8300-84F2F40E4DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
