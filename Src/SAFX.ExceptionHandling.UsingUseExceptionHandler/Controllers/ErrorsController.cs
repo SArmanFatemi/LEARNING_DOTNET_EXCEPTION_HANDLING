@@ -3,9 +3,9 @@ namespace SAFX.ExceptionHandling.UsingUseExceptionHandler.Controllers;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
+[ApiExplorerSettings(IgnoreApi = true)]
 public class ErrorsController : ControllerBase
 {
-	[HttpGet]
 	[Route("/error")]
 	public IActionResult Error()
 	{
